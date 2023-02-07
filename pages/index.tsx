@@ -1,3 +1,4 @@
+import HouseholdTable from "components/household/HouseholdTable";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -13,9 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <br />
-        <h1 className="text-center">Add Insurance</h1>
-        <Form1 />
+        <div className="container py-12">
+          <HouseholdTable />
+        </div>
       </main>
     </>
   );
